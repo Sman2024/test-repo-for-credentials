@@ -1,0 +1,833 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "a98f26ef-e9d1-4d2c-8730-ee467c25e6b4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "positive number\n"
+     ]
+    }
+   ],
+   "source": [
+    "num = 7\n",
+    "if num > 0:\n",
+    "    print('positive number')\n",
+    "elif num < 0:\n",
+    "    print('negative number')\n",
+    "else:\n",
+    "    print('zer')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "dab59baa-a464-4b7f-a2b4-1e1cf57b1bba",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter the number  2000\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Leap year\n"
+     ]
+    }
+   ],
+   "source": [
+    "num = int(input(\"Enter the number \"))\n",
+    "if num % 4:\n",
+    "    print('Common year')\n",
+    "elif num != 400:\n",
+    "    print('Leap year')\n",
+    "else:\n",
+    "    print('Leap year')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "17b7e4a2-9bf0-4ed8-baf9-0d1f7f41257a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter the number  2015\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Common year\n"
+     ]
+    }
+   ],
+   "source": [
+    "num = int(input(\"Enter the number \"))\n",
+    "if num % 4:\n",
+    "    print('Common year')\n",
+    "elif num != 400:\n",
+    "    print('Leap year')\n",
+    "else:\n",
+    "    print('Leap year')\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "3a38af03-ebfa-4e02-adba-4513492c967a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter the number  1999\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Common year\n"
+     ]
+    }
+   ],
+   "source": [
+    "num = int(input(\"Enter the number \"))\n",
+    "if num % 4:\n",
+    "    print('Common year')\n",
+    "elif num != 400:\n",
+    "    print('Leap year')\n",
+    "else:\n",
+    "    print('Leap year')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "c7438de8-c617-4829-9913-81b7887592fe",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter the number  1580\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Not within the Gregorian calendar period\n"
+     ]
+    }
+   ],
+   "source": [
+    "num = int(input(\"Enter the number \"))\n",
+    "if num % 4:\n",
+    "    print('Common year')\n",
+    "elif num == 400:\n",
+    "    print('Leap year')\n",
+    "else:\n",
+    "    print('Not within the Gregorian calendar period')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "2b60549a-3ae9-40c0-92ef-6ecfe935ef5d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Welcome to Leap Year Checker\n"
+     ]
+    },
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter the year you want to check:  2000\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Not Leap Year\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Welcome to Leap Year Checker\")\n",
+    "year = int(input(\"Enter the year you want to check: \"))\n",
+    "if year % 4:\n",
+    "    print(str(year) +  \"is a leap year\")\n",
+    "elif year != 100:\n",
+    "    print(\"Not Leap Year\")\n",
+    "elif year == 400:\n",
+    "    print(\"Not Leap Year\")\n",
+    "else:\n",
+    "    print(\"Not within the Gregorian Calender period! \")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "d3077421-7b6d-47c7-a752-d214211ea00f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Welcome to Leap Year Checker\n"
+     ]
+    },
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter the year you want to check:  2000\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Not Leap Year\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Welcome to Leap Year Checker\")\n",
+    "year = int(input(\"Enter the year you want to check: \"))\n",
+    "if year % 4 == 0:\n",
+    "    if year % 100 != 0:\n",
+    "        if year % 400 == 0:\n",
+    "            print(str(year) + \"is a leap year\")\n",
+    "        else:\n",
+    "            print(\"Not Leap Year\")\n",
+    "    else:\n",
+    "        print(\"Not Leap Year\")\n",
+    "else:\n",
+    "    print(\"Not Leap Year\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "ebef8e02-8488-4cf1-8993-66f5d9c810bb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "vowel\n"
+     ]
+    }
+   ],
+   "source": [
+    "# check if a character is a vowel or not\n",
+    "char = 'a'\n",
+    "\n",
+    "if char in ['a', 'e', 'i', 'o', 'u']:\n",
+    "    print('vowel')\n",
+    "else:\n",
+    "    print('not a vowel')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "fb3d6060-ecd6-48c1-90e4-6591da43d17a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "not a vowel\n"
+     ]
+    }
+   ],
+   "source": [
+    "char = 'b'\n",
+    "\n",
+    "if char in ['a', 'e', 'i', 'o', 'u']:\n",
+    "    print('vowel')\n",
+    "else:\n",
+    "    print('not a vowel')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "70bd4b01-8de2-4306-9154-f0afd4646c64",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Weekend\n"
+     ]
+    }
+   ],
+   "source": [
+    "# determine weekend vs weekday\n",
+    "day = \"Sunday\"\n",
+    "\n",
+    "if day in ['Saturday', 'Sunday']:\n",
+    "    print('Weekend')\n",
+    "else:\n",
+    "    print('Weekday')\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "id": "a284cc4d-87cf-4055-b08c-5c4519744ee3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Weekday\n"
+     ]
+    }
+   ],
+   "source": [
+    "day = \"Thursday\"\n",
+    "\n",
+    "if day in ['Saturday', 'Sunday']:\n",
+    "    print('Weekend')\n",
+    "else:\n",
+    "    print('Weekday')\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "fe65e2e0-7fa2-47a0-ae45-0f88d89efb3a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Good morning\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Greeting based on time of day\n",
+    "\n",
+    "hour = 9 # this represent 9 AM\n",
+    "\n",
+    "if 0 <= hour < 12:\n",
+    "    print('Good morning')\n",
+    "elif 12 <= hour < 18:\n",
+    "    print('Good afternoon')\n",
+    "else:\n",
+    "    print('Good evening')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "id": "4c5ed076-ff70-4f48-91f6-092087965c83",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Good afternoon\n"
+     ]
+    }
+   ],
+   "source": [
+    "hour = 13 # this represent 9 AM\n",
+    "\n",
+    "if 0 <= hour < 12:\n",
+    "    print('Good morning')\n",
+    "elif 12 <= hour < 18:\n",
+    "    print('Good afternoon')\n",
+    "else:\n",
+    "    print('Good evening')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "2b0173f6-ec74-46ff-81da-416de68a7657",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Good evening\n"
+     ]
+    }
+   ],
+   "source": [
+    "hour = 19 # this represent 9 AM\n",
+    "\n",
+    "if 0 <= hour < 12:\n",
+    "    print('Good morning')\n",
+    "elif 12 <= hour < 18:\n",
+    "    print('Good afternoon')\n",
+    "else:\n",
+    "    print('Good evening')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "aba43abe-9f4b-4b29-bf8f-1d0374234da4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "15 is the largest number. \n"
+     ]
+    }
+   ],
+   "source": [
+    "#checking for the largest number\n",
+    "num1 = 3\n",
+    "num2 = 15\n",
+    "num3 = 12\n",
+    "\n",
+    "if num1 > num2 > num3:\n",
+    "    print(f\"{num1} is the larget number. \")\n",
+    "elif num2 > num1 and num2 > num3:\n",
+    "    print(f\"{num2} is the largest number. \")\n",
+    "else:\n",
+    "     print(f\"{num3} is the largest number. \")\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "id": "eaef3387-a589-407e-a302-fb45b3cdba78",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter the first number:  10\n",
+      "Enter the second number:  5\n",
+      "Enter the three number:  15\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "15 is the largest number. \n"
+     ]
+    }
+   ],
+   "source": [
+    "num1 = int(input(\"Enter the first number: \"))\n",
+    "num2 = int(input(\"Enter the second number: \"))\n",
+    "num3 = int(input(\"Enter the three number: \"))\n",
+    "\n",
+    "if num1 > num2 > num3:\n",
+    "    print(f\"{num1} is the larget number. \")\n",
+    "elif num2 > num1 and num2 > num3:\n",
+    "    print(f\"{num2} is the largest number. \")\n",
+    "else:\n",
+    "     print(f\"{num3} is the largest number. \")\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "99a6a93d-4a44-498b-bd98-db0b5a9c6ef3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter the first number:  5\n",
+      "Enter the second number:  15\n",
+      "Enter the three number:  29\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "The largest number is: 29\n"
+     ]
+    }
+   ],
+   "source": [
+    "number1 = int(input(\"Enter the first number: \"))\n",
+    "number2 = int(input(\"Enter the second number: \"))\n",
+    "number3 = int(input(\"Enter the three number: \"))\n",
+    "\n",
+    "# Check which one of the numbers is the greatest\n",
+    "# and pass it to the largest_number variable.\n",
+    "\n",
+    "largest_number = max(number1, number2, number3)\n",
+    "\n",
+    "# Print the result\n",
+    "print(\"The largest number is:\", largest_number)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 40,
+   "id": "22b30102-46e9-4d18-930d-0785dfcfe2ff",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "The largest number is: 15\n"
+     ]
+    }
+   ],
+   "source": [
+    "number1 = 3\n",
+    "number2 = 15\n",
+    "number3 = 12\n",
+    "\n",
+    "# Check which one of the numbers is the greatest\n",
+    "# and pass it to the largest_number variable.\n",
+    "\n",
+    "largest_number = max(number1, number2, number3)\n",
+    "\n",
+    "# Print the result\n",
+    "print(\"The largest number is:\", largest_number)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "ae8c0583-d506-4837-993b-5f35377e0850",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Friday\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Determining the Day of the week\n",
+    "\n",
+    "day_num = 5\n",
+    "\n",
+    "if day_num == 1:\n",
+    "    print('Monday')\n",
+    "elif day_num == 2:\n",
+    "    print('Tuesday')\n",
+    "elif day_num == 3:\n",
+    "    print('Wednesday')\n",
+    "elif day_num == 4:\n",
+    "    print('Thursday')\n",
+    "elif day_num == 5:\n",
+    "    print('Friday')\n",
+    "elif day_num == 6:\n",
+    "    print('Saturday')\n",
+    "elif day_num == 7:\n",
+    "    print('Sunday')\n",
+    "else:\n",
+    "    print('Invalid number')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "id": "1a0f3e3e-7a0e-42e7-9c67-e7f7e8c82ba4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Ticke price is 15\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Calculating ticket price\n",
+    "\n",
+    "age = 46\n",
+    "\n",
+    "if age < 5:\n",
+    "    print('Ticket is free')\n",
+    "elif age <= 12:\n",
+    "    print('Ticket price is 10')\n",
+    "elif age <= 59:\n",
+    "    print('Ticke price is 15')\n",
+    "else:\n",
+    "    print('Ticket price is 12 for sinior citizens')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "id": "59ae3775-2da1-4ada-acff-4289e1349536",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "David is a member of the club\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Checking Membership\n",
+    "\n",
+    "members = ['Alice', 'Bob', 'Charlie', 'David']\n",
+    "name_check = 'David'\n",
+    "if name_check in members:\n",
+    "    print(f\"{name_check:} is a member of the club\")\n",
+    "else:\n",
+    "    print(f\"{name_check:} is not a member of the club\")\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "93af5610-13c3-4b75-ba7e-3962d1fb6db6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Kay is not a member of the club\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Checking Membership\n",
+    "\n",
+    "members = ['Alice', 'Bob', 'Charlie', 'David']\n",
+    "name_check = 'Kay'\n",
+    "if name_check in members:\n",
+    "    print(f\"{name_check:} is a member of the club\")\n",
+    "else:\n",
+    "    print(f\"{name_check:} is not a member of the club\")\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "id": "f6ba0ccc-0dd6-4a00-a59c-a7cd8841976e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "not a member\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Checking Membership\n",
+    "\n",
+    "members = ['Alice', 'Bob', 'Charlie', 'David']\n",
+    "name_check = 'Kay'\n",
+    "if name_check in members:\n",
+    "    print(\"member\")\n",
+    "else:\n",
+    "    print(\"not a member\")\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "id": "237d4ce9-f50a-4b05-a0df-ddaafee9a19e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "member\n"
+     ]
+    }
+   ],
+   "source": [
+    "members = ['Alice', 'Bob', 'Charlie', 'David']\n",
+    "name_check = 'Alice'\n",
+    "if name_check in members:\n",
+    "    print('member')\n",
+    "else:\n",
+    "    print('not a member')\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "4a5a063b-c19a-4c5f-a414-1ee2150dcf57",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "work\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Nested if to determine Age group and Activity\n",
+    "\n",
+    "Age = 78\n",
+    "day = \"Tuesday\"\n",
+    "\n",
+    "if day in [\"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\"]:\n",
+    "        if Age < 13:\n",
+    "         print('school')\n",
+    "        elif 13 <= Age <= 19:\n",
+    "         print('college')\n",
+    "        else:\n",
+    "         print('work')\n",
+    "else:\n",
+    "    print('Holiday')\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "f866b629-b527-4d75-aafe-43bfce86ef62",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "college\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Nested if to determine Age group and Activity\n",
+    "\n",
+    "Age = 19\n",
+    "day = \"Tuesday\"\n",
+    "\n",
+    "if day in [\"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\"]:\n",
+    "    if Age < 13:\n",
+    "        print('school')\n",
+    "    elif Age >= 19:\n",
+    "         print('college')\n",
+    "else:\n",
+    "    print('work')\n",
+    "\n",
+    "    \n",
+    "        \n",
+    "        \n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "088d1fbf-6858-48a0-9e00-8de89eb520a7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Grade F\n"
+     ]
+    }
+   ],
+   "source": [
+    "marks = 49\n",
+    "\n",
+    "if marks >90:\n",
+    "    print('Grade A')\n",
+    "elif marks >=75:\n",
+    "    print('Grade B')\n",
+    "elif marks >=60:\n",
+    "    print('Grace C')\n",
+    "elif marks >=50:\n",
+    "    print('Grade D')\n",
+    "else:\n",
+    "    print('Grade F')\n",
+    "\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "7a060378-d97c-4e51-a39b-8a680979474e",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
